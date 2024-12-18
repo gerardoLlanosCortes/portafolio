@@ -5,6 +5,8 @@ import { routing } from "@/i18n/routing";
 import "../globals.css";
 import LocalSwitcher from "../components/LocalSwitcher";
 import { Inconsolata } from "next/font/google";
+import { ThemeProviders } from "../ThemeProvider";
+import ThemeSwitcher from "../components/ThemeSwitcher";
 
 // Configura la fuente
 const inconsolata = Inconsolata({
@@ -33,11 +35,18 @@ export default async function LocaleLayout({
   const serializedMessages = JSON.parse(JSON.stringify(messages));
 
   return (
-    <html lang={locale} className={inconsolata.className}>
+    <html
+      lang={locale}
+      className={inconsolata.className}
+      suppressHydrationWarning
+    >
       <body>
         <NextIntlClientProvider messages={serializedMessages}>
-          {/* <LocalSwitcher /> */}
-          {children}
+          <ThemeProviders>
+            {/* <ThemeSwitcher /> */}
+            {/* <LocalSwitcher /> */}
+            {children}
+          </ThemeProviders>
         </NextIntlClientProvider>
       </body>
     </html>

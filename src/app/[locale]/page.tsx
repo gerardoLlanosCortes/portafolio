@@ -20,7 +20,7 @@ export default function HomePage() {
   const t = useTranslations("IndexPage");
   return (
     <div>
-      <h1>{t("name")}</h1>
+      <h1 className="text-yellow-500 dark:text-red-50">{t("name")}</h1>
     </div>
   );
 }
