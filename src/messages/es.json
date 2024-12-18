@@ -1,0 +1,20 @@
+{
+  "IndexPage": {
+    "name": "Gerardo Llanos",
+    "job": "Desarrollador Web Full-Stack",
+    "download-cV": "Descargar CV",
+    "skills": "Tecnologías",
+    "proyects": "Proyectos",
+    "experience": "Experiencia",
+    "about": "Sobre Mí",
+    "about-desc": "Soy Gerardo Llanos, ingeniero informático y desarrollador web con experiencia en el desarrollo de aplicaciones completas utilizando tecnologías como ReactJS, Next.js, NodeJS y MongoDB."
+  },
+  "LocaleSwitcher": {
+    "label": "Cambiar Idioma",
+    "locale": "{locale, select, es {Español} en {Inglés} other {Uknown}}"
+  },
+  "NavbarLinks": {
+    "homeTitle": "Inicio",
+    "testTitle": "Prueba"
+  }
+}

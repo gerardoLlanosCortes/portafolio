@@ -1,0 +1,14 @@
+{
+  "IndexPage": {
+    "title": "next-intl Example",
+    "description": "This is an example of rich text using <remarcar>NEXT-INTL</remarcar>"
+  },
+  "LocaleSwitcher": {
+    "label": "Change Languaje",
+    "locale": "{locale, select, es {Spanish} en {English} other {Uknown}}"
+  },
+  "NavbarLinks": {
+    "homeTitle": "Home",
+    "testTitle": "Test"
+  }
+}
