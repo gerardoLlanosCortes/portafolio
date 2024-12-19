@@ -18,20 +18,20 @@ export default async function ProjectC({ project }: { project: Project }) {
       <div className="w-full flex items-center justify-start gap-2">
         {project.technologies.map((tech) => (
           <span
-            key={tech.name}
+            key={tech}
             className={`${
-              tech.name === "ReactJS"
+              tech === "ReactJS"
                 ? "bg-sky-700"
-                : tech.name === "NodeJS"
+                : tech === "NodeJS"
                 ? "bg-green-600"
-                : tech.name === "MongoDB"
+                : tech === "MongoDB"
                 ? "bg-green-700"
-                : tech.name === "TailwindCSS"
+                : tech === "TailwindCSS"
                 ? "bg-sky-600"
                 : "bg-transparent"
             } w-fit px-2 py-1 rounded-lg text-xs`}
           >
-            {tech.name}
+            {tech}
           </span>
         ))}
       </div>

@@ -1,10 +1,10 @@
+import { Technology } from "./technologies";
+
 // projects.ts
 export type Project = {
   id: string;
   image: string;
-  technologies: {
-    name: "ReactJS" | "NodeJS" | "MongoDB" | "TailwindCSS";
-  }[];
+  technologies: Technology[];
   title: { en: string; es: string };
   description: { en: string; es: string };
   link: string;
@@ -14,12 +14,7 @@ export const projects: Project[] = [
   {
     id: "latebanbarber",
     image: "/assets/latebanbarber.png",
-    technologies: [
-      { name: "ReactJS" },
-      { name: "NodeJS" },
-      { name: "MongoDB" },
-      { name: "TailwindCSS" },
-    ],
+    technologies: ["ReactJS", "NodeJS", "MongoDB", "TailwindCSS"],
     title: {
       en: "Website & Scheduler - LaTebanBarber",
       es: "Página web & Agenda - LaTebanBarber",
@@ -33,12 +28,7 @@ export const projects: Project[] = [
   {
     id: "latebanbarber",
     image: "/assets/latebanbarber.png",
-    technologies: [
-      { name: "ReactJS" },
-      { name: "NodeJS" },
-      { name: "MongoDB" },
-      { name: "TailwindCSS" },
-    ],
+    technologies: ["ReactJS", "NodeJS", "MongoDB", "TailwindCSS"],
     title: {
       en: "Website & Scheduler - LaTebanBarber",
       es: "Página web & Agenda - LaTebanBarber",

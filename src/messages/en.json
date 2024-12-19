@@ -1,14 +1,29 @@
 {
   "IndexPage": {
-    "title": "next-intl Example",
-    "description": "This is an example of rich text using <remarcar>NEXT-INTL</remarcar>"
+    "proyects": "Projects",
+    "experience": "Experience",
+    "about": "About Me",
+    "about-desc": "Hello, I'm Gerardo Llanos, a computer engineer and web developer with experience in building full-stack applications using technologies like ReactJS, Next.js, NodeJS, and MongoDB."
+  },
+  "Header": {
+    "name": "Gerardo Llanos - Computer Engineer",
+    "job": "Full-Stack Web Developer",
+    "download-cv": "Download CV",
+    "skills": "Tecnologies"
+  },
+  "About": {
+    "paragraph_one": "I am Gerardo Llanos, a computer engineer and web developer with experience in developing full applications using technologies such as ReactJS, Next.js, NodeJS, and MongoDB.",
+    "paragraph_two": "My focus is on creating functional and visually appealing solutions to solve real-world problems.",
+    "paragraph_three": "I have worked on real projects that optimize processes, such as an appointment management platform for a barbershop, a fleet management system, and a business expense tracking tool.",
+    "paragraph_four": "These experiences have strengthened my skills in frontend, backend, and REST API design.",
+    "paragraph_five": "I am motivated to learn new tools, face challenges, and collaborate in the development of products that make an impact."
   },
   "LocaleSwitcher": {
-    "label": "Change Languaje",
+    "label": "Change Language",
     "locale": "{locale, select, es {Spanish} en {English} other {Uknown}}"
   },
   "NavbarLinks": {
-    "homeTitle": "Home",
-    "testTitle": "Test"
+    "homeTitle": "Inicio",
+    "testTitle": "Prueba"
   }
 }

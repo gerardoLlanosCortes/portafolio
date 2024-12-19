@@ -11,6 +11,13 @@
     "download-cv": "Descargar CV",
     "skills": "Tecnologías"
   },
+  "About": {
+    "paragraph_one": "Soy Gerardo Llanos, ingeniero informático y desarrollador web conexperiencia en el desarrollo de aplicaciones completas utilizando tecnologías como ReactJS, Next.js, NodeJS y MongoDB.",
+    "paragraph_two": "Mi enfoque está en crear soluciones funcionales y visualmente atractivas para resolver problemas reales.",
+    "paragraph_three": "He trabajado en proyectos reales que optimizan procesos, como una plataforma de gestión de citas para una barbería, un sistema de administración de flotas vehiculares y una herramienta de control de gastos empresariales.",
+    "paragraph_four": "Estas experiencias han fortalecido mis habilidades en frontend, backend y diseño de APIs REST.",
+    "paragraph_five": "Me motiva aprender nuevas herramientas, enfrentar desafíos y colaborar en el desarrollo de productos que generen impacto."
+  },
   "LocaleSwitcher": {
     "label": "Cambiar Idioma",
     "locale": "{locale, select, es {Español} en {Inglés} other {Uknown}}"
