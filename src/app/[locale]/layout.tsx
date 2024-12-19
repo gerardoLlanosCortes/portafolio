@@ -40,11 +40,11 @@ export default async function LocaleLayout({
       className={inconsolata.className}
       suppressHydrationWarning
     >
-      <body>
+      <body className="bg-black text-white w-[850px] mx-auto">
         <NextIntlClientProvider messages={serializedMessages}>
           <ThemeProviders>
-            {/* <ThemeSwitcher /> */}
             {/* <LocalSwitcher /> */}
+            {/* <ThemeSwitcher /> */}
             {children}
           </ThemeProviders>
         </NextIntlClientProvider>

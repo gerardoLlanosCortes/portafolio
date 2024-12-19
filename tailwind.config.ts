@@ -21,6 +21,16 @@ export default {
         blueDark: "#00183E",
         gold: "#FFC54A",
       },
+      width: {
+        mobile: "90%",
+        sm: "640px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1280px",
+      },
+      fontFamily: {
+        inconsolata: "var(--font-inconsolata)",
+      },
     },
   },
   plugins: [],
