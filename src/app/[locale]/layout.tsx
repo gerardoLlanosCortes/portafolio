@@ -3,11 +3,11 @@ import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import "../globals.css";
-import LocalSwitcher from "../components/LocalSwitcher";
+// import LocalSwitcher from "../components/LocalSwitcher";
 import { Inconsolata } from "next/font/google";
 import { ThemeProviders } from "../ThemeProvider";
-import ThemeSwitcher from "../components/ThemeSwitcher";
-import Cursor from "../components/Cursor";
+// import ThemeSwitcher from "../components/ThemeSwitcher";
+// import Cursor from "../components/Cursor";
 
 // Configura la fuente
 const inconsolata = Inconsolata({
