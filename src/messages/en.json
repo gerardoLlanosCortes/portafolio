@@ -12,11 +12,10 @@
     "skills": "Tecnologies"
   },
   "About": {
-    "paragraph_one": "I am Gerardo Llanos, a computer engineer and web developer with experience in developing full applications using technologies such as ReactJS, Next.js, NodeJS, and MongoDB.",
-    "paragraph_two": "My focus is on creating functional and visually appealing solutions to solve real-world problems.",
-    "paragraph_three": "I have worked on real projects that optimize processes, such as an appointment management platform for a barbershop, a fleet management system, and a business expense tracking tool.",
-    "paragraph_four": "These experiences have strengthened my skills in frontend, backend, and REST API design.",
-    "paragraph_five": "I am motivated to learn new tools, face challenges, and collaborate in the development of products that make an impact."
+    "paragraph_one": "I am Gerardo Llanos, a computer engineer graduated from Duoc UC in 2024. I specialize in web development using technologies such as React, Next.js, and Node.js.",
+    "paragraph_two": "My main motivation is to develop applications that not only solve problems but also have a positive impact on the people who use them.",
+    "paragraph_three": "I stand out for my ability to work under pressure and my creativity, which allowed me to achieve second place in the 2023 Duoc UC Hackathon, where I designed and developed effective solutions in record time.",
+    "paragraph_four": "In my free time, I enjoy playing video games, practicing tennis, exploring new languages, and building the habit of reading. I am always looking for new challenges that allow me to grow professionally."
   },
   "LocaleSwitcher": {
     "label": "Change Language",

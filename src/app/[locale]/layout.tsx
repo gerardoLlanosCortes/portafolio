@@ -7,6 +7,7 @@ import LocalSwitcher from "../components/LocalSwitcher";
 import { Inconsolata } from "next/font/google";
 import { ThemeProviders } from "../ThemeProvider";
 import ThemeSwitcher from "../components/ThemeSwitcher";
+import Cursor from "../components/Cursor";
 
 // Configura la fuente
 const inconsolata = Inconsolata({
@@ -40,9 +41,10 @@ export default async function LocaleLayout({
       className={inconsolata.className}
       suppressHydrationWarning
     >
-      <body className="bg-black text-white w-[850px] mx-auto">
+      <body className="bg-black text-white ">
         <NextIntlClientProvider messages={serializedMessages}>
           <ThemeProviders>
+            {/* <Cursor /> */}
             {/* <LocalSwitcher /> */}
             {/* <ThemeSwitcher /> */}
             {children}

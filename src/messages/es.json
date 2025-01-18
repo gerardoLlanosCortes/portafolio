@@ -12,11 +12,10 @@
     "skills": "Tecnologías"
   },
   "About": {
-    "paragraph_one": "Soy Gerardo Llanos, ingeniero informático y desarrollador web conexperiencia en el desarrollo de aplicaciones completas utilizando tecnologías como ReactJS, Next.js, NodeJS y MongoDB.",
-    "paragraph_two": "Mi enfoque está en crear soluciones funcionales y visualmente atractivas para resolver problemas reales.",
-    "paragraph_three": "He trabajado en proyectos reales que optimizan procesos, como una plataforma de gestión de citas para una barbería, un sistema de administración de flotas vehiculares y una herramienta de control de gastos empresariales.",
-    "paragraph_four": "Estas experiencias han fortalecido mis habilidades en frontend, backend y diseño de APIs REST.",
-    "paragraph_five": "Me motiva aprender nuevas herramientas, enfrentar desafíos y colaborar en el desarrollo de productos que generen impacto."
+    "paragraph_one": "Soy Gerardo Llanos, ingeniero en informática titulado de Duoc UC en 2024. Me especializo en el desarrollo web utilizando tecnologías como React, Next.js y Node.js.",
+    "paragraph_two": "Mi motivación principal es desarrollar aplicaciones que no solo resuelvan problemas, sino que también generen un impacto positivo en las personas que las utilizan.",
+    "paragraph_three": "Destaco por mi capacidad de trabajo bajo presión y creatividad, lo que me permitió obtener el segundo lugar en la Hackatón de Duoc UC 2023, donde diseñé y desarrollé soluciones efectivas en tiempo récord.",
+    "paragraph_four": "En mi tiempo libre, disfruto de jugar videojuegos, practicar tenis, explorar nuevos idiomas y desarrollar el hábito de la lectura. Siempre estoy en búsqueda de nuevos desafíos que me permitan crecer profesionalmente."
   },
   "LocaleSwitcher": {
     "label": "Cambiar Idioma",

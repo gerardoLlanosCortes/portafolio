@@ -10,7 +10,7 @@ const Icon = ({
   icon: ReactNode;
 }) => {
   return (
-    <figure className={`w-${size} h-${size} rounded-full ${customClass}`}>
+    <figure className={`w-${size} h-${size} rounded-full ${customClass} `}>
       {icon}
     </figure>
   );

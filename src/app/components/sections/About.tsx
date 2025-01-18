@@ -16,7 +16,6 @@ const About = () => {
           <p>{tAbout("paragraph_two")}</p>
           <p>{tAbout("paragraph_three")}</p>
           <p>{tAbout("paragraph_four")}</p>
-          <p>{tAbout("paragraph_five")}</p>
         </div>
       </div>
     </div>

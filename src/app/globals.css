@@ -5,14 +5,55 @@
 :root {
   --background: #a7a7a7;
   --foreground: #1b1b1b;
+
+  --white-full: #fff;
+  --white-darker: #a7a7a7;
+  --black: #1b1b1b;
+  --black-full: #0d0d0d;
+  --light-blue: #79d7fd;
+  --sky-blue: #00bbfa;
+  --blue: #001736;
+  --blue-dark: #00183e;
+  --gold: #ffc54a;
+  --red: red;
 }
 
 * {
   @apply transition-colors duration-200;
 }
 
+html,
+* {
+  /* cursor: none; */
+}
+
 body {
   font-family: var(--font-inconsolata), sans-serif, Arial, Helvetica;
+}
+
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  mix-blend-mode: difference;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.cursor-text {
+  font-size: 5px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  display: none;
+  color: black;
 }
 
 .shadow-test {
@@ -31,3 +72,52 @@ body {
     @apply border border-white/20;
   }
 } */
+
+.gradient-overlay--bg {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    ellipse closest-side,
+    rgba(0, 0, 0, 0.3),
+    #131313c9 /* Cambiar a blanco con opacidad completa */
+  );
+  /* transition: background 3s ease;  */
+  /* Transición suave del color de fondo */
+}
+
+/* PROJECTS CSS */
+.organization {
+  color: var(--sky-blue);
+  text-decoration: underline;
+}
+
+.important {
+  color: var(--red);
+}
+
+.list-style {
+  list-style: disc;
+  list-style-position: inside;
+}
+
+.list-style-second {
+  list-style: square;
+  list-style-position: inside;
+  padding-left: 24px;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.unordened-list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sub-unordened-list-container {
+  padding-bottom: 16px;
+}

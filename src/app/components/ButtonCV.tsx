@@ -10,9 +10,11 @@ interface ButtonProps {
 
 const ButtonCV = ({ title, id, rightIcon }: ButtonProps) => {
   return (
-    <button
+    <a
+      href="/Gerardo_Llanos_CV.pdf"
+      download={true}
       id={id}
-      className={`group relative flex items-center gap-3 z-10 w-fit cursor-pointer overflow-hidden rounded-full bg-white px-7 py-3 text-black`}
+      className={`group relative flex items-center gap-3 z-10 w-fit cursor-pointer overflow-hidden rounded-full bg-white text-black px-4 py-2 text-sm md:text-base md:px-7 md:py-3 `}
     >
       <span className="absolute left-0 top-0 h-32 w-32 -translate-y-2 translate-x-12 rotate-45 bg-skyBlue opacity-[3%]"></span>
       <span className="absolute left-0 top-0 -mt-1 h-48 w-48 -translate-x-80 -translate-y-24 rotate-45 bg-skyBlue opacity-100 transition-all duration-500 ease-in-out group-hover:-translate-x-0"></span>
@@ -24,7 +26,7 @@ const ButtonCV = ({ title, id, rightIcon }: ButtonProps) => {
           {rightIcon}
         </span>
       </div>
-    </button>
+    </a>
   );
 };
 

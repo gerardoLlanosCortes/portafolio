@@ -14,6 +14,11 @@ export const routing = defineRouting({
     // external path can be used for all locales
     "/": "/",
 
+    "/projects/[slug]": {
+      es: "/proyectos/[slug]",
+      en: "/projects/[slug]",
+    },
+
     // If locales use different paths, you can
     // specify each external path per locale
 

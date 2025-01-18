@@ -18,9 +18,9 @@ const Skills = () => {
   const t = useTranslations("Header");
 
   return (
-    <div className="flex flex-col gap-6 items-center justify-center ">
+    <div className="w-full flex flex-col gap-6 items-center justify-center ">
       <h2 className="text-xl">{t("skills")}</h2>
-      <div className="flex  items-center gap-8 ">
+      <div className="flex items-center justify-center flex-wrap w-full gap-8">
         <Icon size="10" icon={<FaReact size={"full"} />} />
         <Icon size="10" icon={<RiNextjsFill size={"full"} />} />
         <Icon size="10" icon={<FaNodeJs size={"full"} />} />
