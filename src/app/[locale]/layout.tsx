@@ -41,13 +41,18 @@ export default async function LocaleLayout({
       className={inconsolata.className}
       suppressHydrationWarning
     >
-      <body className="bg-black text-white ">
+      <body className="bg-black text-white relative">
         <NextIntlClientProvider messages={serializedMessages}>
           <ThemeProviders>
+            <div className="sticky top-0 left-0 w-full h-[100px] z-[9999] flex items-center justify-center">
+              <span className="w-fit h-[48px] flex items-center justify-center text-center rounded-full border border-white bg-black px-3">
+                Página web en desarrollo
+              </span>
+            </div>
             {/* <Cursor /> */}
             {/* <LocalSwitcher /> */}
             {/* <ThemeSwitcher /> */}
-            {children}
+            <div className="-mt-[100px]">{children}</div>
           </ThemeProviders>
         </NextIntlClientProvider>
       </body>
