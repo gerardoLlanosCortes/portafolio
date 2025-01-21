@@ -37,16 +37,17 @@ export default async function ProjectC({ project }: { project: Project }) {
             </span>
           ))}
         </div>
-        <div className="w-full flex items-center justify-between">
+        <Link
+          href={`/projects/${project.slug[locale]}`}
+          className="w-full flex items-center justify-between hover:underline"
+        >
           <span>{project.title[locale]}</span>
-          <Link href={`/projects/${project.slug[locale]}`}>
-            <Icon
-              size="3"
-              customClass="rounded-full w-3 h-3"
-              icon={<FaArrowRight size={"full"} />}
-            />
-          </Link>
-        </div>
+          <Icon
+            size="3"
+            customClass="rounded-full w-3 h-3"
+            icon={<FaArrowRight size={"full"} />}
+          />
+        </Link>
       </div>
     </div>
   );
